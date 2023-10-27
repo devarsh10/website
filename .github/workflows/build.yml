@@ -6,8 +6,8 @@ on:
 
 jobs:
   check_spelling:
-    - name: Chech Spelling
-      uses: check-spelling/check-spelling@v0.0.22
+    name: Chech Spelling
+    uses: check-spelling/check-spelling@v0.0.22
 
   build_docs:
     name: Generate [version] documentation
